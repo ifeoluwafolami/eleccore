@@ -101,7 +101,7 @@ export default function App() {
                     </div>
                 </div>
                 <div className="min-h-[40vh] lg:min-h-[calc(100vh-5rem)] w-full lg:w-[50%] flex items-center justify-center lg:justify-end mt-8 lg:mt-0">
-                    <img src="/src/assets/eleccore.png" alt="Eleccore Services" className="border rounded-3xl border-blue/20 shadow-2xl shadow-yellow/40 max-w-full h-auto" />
+                    <img src="/eleccore.png" alt="Eleccore Services" className="border rounded-3xl border-blue/20 shadow-2xl shadow-yellow/40 max-w-full h-auto" />
                 </div>
             </div>
 
@@ -172,7 +172,7 @@ export default function App() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                         <div className="flex flex-col gap-4">
-                            <img src="/src/assets/certifiedprofessionals.jpg" alt="Licensed & Certified" className="rounded-lg w-full h-48 object-cover" />
+                            <img src="/certifiedprofessionals.jpg" alt="Licensed & Certified" className="rounded-lg w-full h-48 object-cover" />
                             <div className="flex flex-col justify-center items-center">
                                 <div className="flex justify-center items-center gap-2 mb-2">
                                     <CheckCircle className="text-green-600" />
@@ -183,7 +183,7 @@ export default function App() {
                         </div>
 
                         <div className="flex flex-col gap-4">
-                            <img src="/src/assets/qualityguarantee.jpg" alt="Quality Guarantee" className="rounded-lg w-full h-48 object-cover" />
+                            <img src="/qualityguarantee.jpg" alt="Quality Guarantee" className="rounded-lg w-full h-48 object-cover" />
                             <div className="flex flex-col justify-center items-center">
                                 <div className="flex justify-center items-center gap-2 mb-2">
                                     <CheckCircle className="text-green-600" />
@@ -194,7 +194,7 @@ export default function App() {
                         </div>
 
                         <div className="flex flex-col gap-4">
-                            <img src="/src/assets/onestopsolution.jpg" alt="Comprehensive Services" className="rounded-lg w-full h-48 object-cover" />
+                            <img src="/onestopsolution.jpg" alt="Comprehensive Services" className="rounded-lg w-full h-48 object-cover" />
                             <div className="flex flex-col justify-center items-center">
                                 <div className="flex justify-center items-center gap-2 mb-2">
                                     <CheckCircle className="text-green-600" />
