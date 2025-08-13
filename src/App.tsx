@@ -40,7 +40,7 @@ export default function App() {
         <div className="min-h-screen bg-slate-100 font-raleway">
             {/* Header */}
             <header className="sticky top-0 z-40 h-20 px-4 lg:px-8 bg-yellow flex justify-between items-center relative">
-                <h3 className="font-exwayer font-bold text-2xl md:text-4xl">ELECCORE</h3>
+                <h3 className="font-exwayer font-bold text-4xl">ELECCORE</h3>
                 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex gap-4">
@@ -87,8 +87,8 @@ export default function App() {
             {/* Hero */}
             <div className="min-h-[calc(100vh-5rem)] flex flex-col lg:flex-row px-4 md:px-12 lg:px-24 py-8 lg:py-0">
                 <div className="min-h-[45vh] lg:min-h-[calc(100vh-5rem)] w-full lg:w-[50%] flex flex-col justify-center items-center text-center lg:text-left">
-                    <h1 className="font-extrabold text-3xl md:text-4xl lg:text-6xl">
-                        Your Trusted Partner for All <span className="text-4xl md:text-5xl lg:text-7xl font-exwayer text-yellow">Electrical</span> Needs
+                    <h1 className="font-extrabold text-2xl md:text-3xl lg:text-6xl">
+                        Your Trusted Partner for All <span className="text-5xl lg:text-7xl font-exwayer text-yellow ml-1">Electrical</span> Needs
                     </h1>
 
                     <h5 className="my-6 text-sm md:text-base lg:text-lg max-w-2xl">
@@ -107,7 +107,7 @@ export default function App() {
 
             {/* Our Services */}
             <div id="services" className="min-h-screen flex flex-col pt-10 sm:pt-20 items-center px-8 lg:px-20">
-                <h1 className="font-exwayer font-extrabold text-5xl md:text-6xl lg:text-7xl text-yellow text-center mb-8 px-4 sm:px-0">Our Services</h1>
+                <h1 className="font-exwayer font-extrabold text-6xl lg:text-7xl text-yellow text-center mb-8 px-4 sm:px-0">Our Services</h1>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-7xl">
                     <div className="flex flex-col justify-center bg-slate-100 border rounded-3xl border-blue/20 shadow-2xl shadow-yellow/20 p-6 md:p-8 min-h-[280px]">
@@ -162,7 +162,7 @@ export default function App() {
 
             {/* Why Choose Us */}
             <div id="why-us" className="min-h-screen flex flex-col py-20 items-center px-4 md:px-8 lg:px-20">
-                <h1 className="font-exwayer font-extrabold text-5xl md:text-6xl lg:text-7xl text-yellow text-center mb-8 px-4 sm:px-0">The Eleccore Edge</h1>
+                <h1 className="font-exwayer font-extrabold text-6xl lg:text-7xl text-yellow text-center mb-8 px-4 sm:px-0">The Eleccore Edge</h1>
 
                 <div className="border rounded-3xl border-blue/20 shadow-2xl shadow-yellow/40 w-full max-w-6xl p-8 md:p-12 lg:p-16 text-center">
                     <h2 className="mb-2 font-black text-yellow uppercase text-xl md:text-2xl lg:text-3xl tracking-wider">Why choose us?</h2>
@@ -209,7 +209,7 @@ export default function App() {
 
             {/* Contact Us */}
             <div id="contact" className="min-h-[70vh] flex flex-col items-center px-4 md:px-8 lg:px-20 pb-10">
-                <h1 className="font-exwayer font-extrabold text-5xl md:text-6xl lg:text-7xl text-yellow text-center mb-8 px-4 sm:px-0">Contact Us</h1>
+                <h1 className="font-exwayer font-extrabold text-6xl lg:text-7xl text-yellow text-center mb-8 px-4 sm:px-0">Contact Us</h1>
 
                 <div className="w-full max-w-6xl">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 text-center sm:text-left">
