@@ -1,15 +1,18 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Exwayer';
-  src: url('./assets/exwayer.regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: "exwayer";
+    src: url("https://db.onlinewebfonts.com/t/96d27e5e4266c2e7e7c9344ece92f0ad.eot");
+    src: url("https://db.onlinewebfonts.com/t/96d27e5e4266c2e7e7c9344ece92f0ad.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/96d27e5e4266c2e7e7c9344ece92f0ad.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/96d27e5e4266c2e7e7c9344ece92f0ad.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/96d27e5e4266c2e7e7c9344ece92f0ad.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/96d27e5e4266c2e7e7c9344ece92f0ad.svg#exwayer")format("svg");
 }
 
 @theme {
   --font-raleway: "Raleway", "sans-serif";
-  --font-exwayer: "Exwayer", "serif";
+  --font-exwayer: "exwayer", "serif";
   --color-yellow: #e7a006;
   --color-blue: #3B4D72;
   --color-ash: #1A1721; 
